@@ -72,7 +72,7 @@
 
 					<includes>
 
-						<include>TestRunner.java</include>
+						<include>${runner}.java</include>
 
 					</includes>
 
