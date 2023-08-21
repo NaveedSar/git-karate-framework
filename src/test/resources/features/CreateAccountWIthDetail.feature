@@ -1,3 +1,4 @@
+@Regression
 Feature: Create account and add the details
 
   Background: setup test and token
