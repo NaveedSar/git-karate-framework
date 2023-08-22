@@ -6,7 +6,7 @@ Feature: Add phone to account
     * def tokenFeature = callonce read('GenerateToken.feature')
     And print tokenFeature
     * def validToken = tokenFeature.response.token
-    * def createAccount = callonce read('creatAccont.feature')
+    * def createAccount = callonce read('CreatAccont.feature')
     And print createAccount
     * def validToken = createAccount.validToken
     * def createAccountId = createAccount.response.id
