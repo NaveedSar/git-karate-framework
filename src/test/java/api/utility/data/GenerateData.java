@@ -5,9 +5,9 @@ import java.util.Random;
 public class GenerateData {
 	public static String getEmail() {
 
-		String prefix = "Best_email";
+		String prefix = "Bestof_email";
 		String provider = "@tekschool.us";
-		int random = (int) (Math.random() * 10000);
+		int random = (int) (Math.random() * 1000000);
 		String email = prefix + random + provider;
 		return email;
 
